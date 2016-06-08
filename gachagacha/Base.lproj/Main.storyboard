@@ -59,7 +59,6 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ZH-Nv-rXg">
                                 <rect key="frame" x="0.0" y="5" width="313" height="563"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="back" destination="bKA-1o-9HU" eventType="touchUpInside" id="xb0-cB-Fqn"/>
                                 </connections>
@@ -71,6 +70,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="haikeiImgView" destination="ax5-Fy-Tbr" id="vSd-Ab-JYd"/>
+                        <outlet property="monsterImgView" destination="kd6-gh-4NP" id="mWK-Oo-23E"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AJC-Hu-tvH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
